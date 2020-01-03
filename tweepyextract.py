@@ -11,6 +11,7 @@ api = tweepy.API(auth,wait_on_rate_limit_notify =True, wait_on_rate_limit=True)
 import time
 import random
 searched_tweets = []
+#last_id and max_tweets are placeholders; time is in epoch time, which is used to query each post. 
 last_id = 100000
 max_tweets=100000000000
 
